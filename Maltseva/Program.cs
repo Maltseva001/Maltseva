@@ -10,7 +10,11 @@ namespace Maltseva
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Введите число");
+            int L = int.Parse(Console.ReadLine());
+            int S = L / 100;
+            Console.WriteLine(S);
+            Console.ReadKey();
         }
     }
 }
